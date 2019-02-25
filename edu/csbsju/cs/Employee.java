@@ -30,6 +30,7 @@ public class Employee
       return hireDay;
    }
 
+
    public void raiseSalary(double byDollarValue)
    {
       double raise = byDollarValue;
@@ -42,6 +43,7 @@ public class Employee
       return ret;
    } 
 
+   
    private String name;
    private double salary;
    private Date hireDay;
